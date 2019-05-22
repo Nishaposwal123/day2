@@ -1,5 +1,5 @@
 #### DictionaryOrder
-This file contains an example of how to arrange words(10 in this case) in Dictionary order
+This file contains an example of how to arrange the words(10 in this case) in Dictionary order
 
 
 
@@ -11,15 +11,18 @@ This file contains an example of how to arrange words(10 in this case) in Dictio
  
 
 
-`tests` This folder contains 1 file tests.cpp and a folder catch2header.
+`tests` This folder contains 2 files test.cpp, runtests.cpp and a folder catch2header.
 
 
 `test.cpp` This file contains all the test cases of to unit test the functions other than main of the source code.
+
+`runtests.cpp` This file contains the falg "RUNTESTS" which tells the CMake File whether to run Source code or tests.
 
 
 
 `catch2header` This folder contains a file catch.cpp.
 
-`Catch2` This folder contains the header file of catch2 framework - "catch.hpp"  
 
 `doc` This folder contains a file "doc.md" which contains a small description about the code.
+
+`CMakeLists.txt` This file contains the condition for running test cases or source code.
